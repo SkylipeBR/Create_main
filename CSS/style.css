@@ -329,10 +329,21 @@ body
 
 @media (max-width: 750px)
 {
+
+    .container-principal .container-principal-texto .container-principal-texto-titulo
+    {
+        font-size: 3em;
+    }
+
     .container-teciario .container-teciario-content
     {
         flex-wrap: wrap;
 
+    }
+
+    .container-segundario
+    {
+        padding: 10px;
     }
 
     .container-teciario
@@ -345,4 +356,11 @@ body
     {
         text-align: center;
     }
+
+    .container-form-send
+    {
+        margin: 4px 32px 52px;
+    }
+    
+
 }
